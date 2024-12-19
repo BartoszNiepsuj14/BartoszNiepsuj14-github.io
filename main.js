@@ -5,7 +5,7 @@ przycisk.addEventListener('click',event => {
 })
 
 function graj() {
-        let audio = new Audio("sounds/hog.mp3")
+        let audio = new Audio("sfx/hog.mp3")
         audio.play()  
     }
 
