@@ -1,9 +1,5 @@
 let przycisk = document.querySelector('.przycisk')
 
-przycisk.addEventListener('click',event => {
-    graj()
-})
-
 function graj() {
         let audio = new Audio("sfx/hog.mp3")
         audio.play()  
